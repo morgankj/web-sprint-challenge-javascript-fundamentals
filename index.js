@@ -16,7 +16,8 @@ function myFunction() {
 myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
-/*  This is an example of a closure - when a child (or inner) function reaches up outside of its own block scope for data, that connection is referred to as a closure.
+
+/*  This is an example of a closure - when a child (or inner) function reaches up outside of its own block scope for data, that connection is referred to as a closure. It has access to the variables defined in its encompassing function's scope since it also lives in that scope (lexical scope).
 */
 
 /* 🚀🚀🚀 Task 2: Counter 🚀🚀🚀 */

@@ -25,17 +25,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each.
+
     .map() Usually used for converting data, .map returns a new array and requires a return statement; anything in the return statement will be pushed to the new array. If you want to create a new array using an existing array of numbers that you want to be multiplied by 7, you can use .map to achieve this!
     .reduce() Reduce returns only a single value and requires 2 arguments, an accumulator (or a running total) and an item. The reduce method is handy if you need an average or sum of the items in your array.
     .filter() Filter returns a new array, checking each item to see if it passes your defined True/False statement. Filter also requires a return statement. You can use .filter to create a new array with odd numbers removed from your original array.
 
 2. Explain the difference between a callback and a higher order function.
+
     A higher order function is one that takes another function as one of its arguments. A callback function is one that has been used as an argument inside of a higher order function.
 
 3. Explain what a closure is.
+
     A closure is created when an inner function reaches outside of its scope for data. 
 
 4. Describe the four principles of the 'this' keyword.
+
   1. Window Binding - this is an error - if you use "this" incorrectly, without giving it any context (so that no rules apply), it will reference the entire window (unless you are in strict mode, in which case "undefined" will be returned). 
   2. Implicit Binding - the most common use of "this," implicit binding refers to when it is used within a function and its context is direct and clear. When you invoke the function in question here, simply look to the left of dot before the function name to see what "this" will reference. 
   3. Explicit Binding - pass an object into one of the following 3 methods: "call," "apply," or "bind." The object passed in is what "this" will reference.
@@ -45,6 +49,8 @@ Edit this document to include your answers after each question. Make sure to lea
   4. New Binding - you can use Constructor functions to create new objects in your data! In this case, "this" is used to refer to that individual new object.
 
 5. Why do we need super() in an extended class?
+
+    Super is the secret sauce in class functions that tells your function what attributes to pull from its parent function. Super performs what .call would perform in prototype syntax.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
