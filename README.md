@@ -24,7 +24,10 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
-1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each.
+    .map() Usually used for converting data, .map returns a new array and requires a return statement; anything in the return statement will be pushed to the new array. If you have an array of numbers that you want all of to be multiplied by 7, you can use .map to achieve this!
+    .reduce() Reduce returns only a single value and requires 2 arguments, an accumulator (or a running total) and an item. The reduce method is handy if you need an average or sum of the items in your array.
+    .filter() Filter returns a new array, checking each item to see if it passes your defined True/False statement.
 
 2. Explain the difference between a callback and a higher order function.
 
